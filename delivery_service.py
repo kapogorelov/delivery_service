@@ -15,6 +15,7 @@ def calculate_min_platforms(weights: list[int], limit: int) -> int:
 
 
 def main() -> None:
+    """Основная логика программы."""
     weights = [int(weight) for weight in input().split()]
     limit = int(input())
     print(calculate_min_platforms(weights, limit))
